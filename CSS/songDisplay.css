@@ -1,0 +1,145 @@
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+}
+
+a {
+  font-weight: bolder;
+}
+
+header {
+  width: 100%;
+  height: 4em;
+  background-color: #000000;
+  color: #ffffff;
+  position: fixed;
+  margin-top: -4em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#contentContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 4em;
+}
+
+#rightMenu {
+  width: 30%;
+  background-color: #333333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#rightMenu a {
+  width: 95%;
+  height: 3em;
+  margin-top: 1em;
+  color: #000000;
+  text-decoration: none;
+}
+
+#rightMenu a div {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#rightMenu a p {
+  padding: 0;
+  margin: 0;
+}
+
+#SongsContainer {
+  width: 70%;
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+}
+
+.songContainer {
+  width: 92%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-left: auto;
+}
+
+.displayData {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.displayDataName {
+  display: inline;
+  font-weight: bolder;
+}
+
+.videoContainer {
+  width: 30vw;
+  height: Calc(16.875vw);
+}
+
+.albumContainer {
+  padding-top: 0.5em;
+}
+/*# sourceMappingURL=songDisplay.css.map */

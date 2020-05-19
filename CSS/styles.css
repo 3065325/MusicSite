@@ -1,61 +1,83 @@
 body {
   width: 100%;
-  height: 100%;
-  padding: 0;
-  margin: 0;
+  height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-#SongsContainer {
-  width: 70vw;
-  margin-left: auto;
+a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+header {
+  width: 100%;
+  height: 4em;
+  background-color: #000000;
+  color: #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-.songContainer {
-  padding-top: 1em;
-  padding-bottom: 1em;
-}
-
-.videoContainer {
+main {
+  width: 100%;
+  height: calc(80% - 4em);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-.videoContainer .videoEmbed {
-  width: 30vw;
-  height: Calc(16.875vw);
-}
-
-.albumContainer {
-  padding-top: 0.5em;
-}
-
-a, span {
-  text-align: center;
+.genreCategory {
   display: block;
+  width: 20vw;
+  height: 20vw;
+}
+
+.genreCategory section {
+  background-color: lightgray;
+  width: 100%;
+  height: 100%;
+  padding: 0.5em;
+  border-radius: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition-duration: 300ms;
+          transition-duration: 300ms;
+}
+
+.genreCategory section:hover {
+  background-color: darkgray;
+  -webkit-transition-duration: 300ms;
+          transition-duration: 300ms;
+}
+
+.genreCategory h2 {
+  margin-bottom: 2em;
+}
+
+.genreCategory p {
+  text-align: center;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,135 @@
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    //background-color: red;
+
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+a {
+    font-weight: bolder;
+}
+
+header {
+    width: 100%;
+    height: 4em;
+    background-color: #000000;
+    color: #ffffff;
+
+    position: fixed;
+    margin-top: -4em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#contentContainer {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 4em;
+}
+
+#rightMenu {
+    width: 30%;
+    background-color: #333333;
+
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+
+    a {
+        width: 95%;
+        height: 3em;
+        margin-top: 1em;
+        color: #000000;
+        text-decoration: none;
+
+        div {
+            width: 100%;
+            height: 100%;
+            background-color: #ffffff;
+            text-align: center;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        p {
+            padding: 0;
+            margin: 0;
+        }
+    }
+}
+
+#SongsContainer {
+    width: 70%;
+    background-color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.songContainer {
+    width: 92%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-left: auto;
+}
+
+.displayData {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.displayDataName {
+    display: inline;
+    font-weight: bolder;
+}
+
+.infoContainer {
+
+    .title {
+
+    }
+
+    .author {
+
+    }
+
+    .bpm {
+
+    }
+}
+
+.videoContainer {
+    width: 30vw;
+    height: Calc(30vw*1080px/1920px);
+}
+
+.albumContainer {
+    padding-top: 0.5em;
+
+    .albumTitle {
+
+    }
+
+    .albumLink {
+
+    }
+}
